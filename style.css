@@ -5,7 +5,7 @@ body{
 h1{
     font-size: 30px;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -24,6 +24,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .button{
     text-decoration: none;
@@ -33,4 +34,50 @@ section{
     border-radius: 5px;
     font-weight: 700;
 
+}
+.subtitle{
+    color: rgb(55, 0, 255);
+}
+
+.second-half-width{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+}
+.second-half-width img{
+    width: 100%;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px;
+    border-radius: 10px;
+    height: 50%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#WFH-Security{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#certifications{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
